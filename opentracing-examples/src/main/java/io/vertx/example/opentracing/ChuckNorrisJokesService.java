@@ -41,7 +41,7 @@ public class ChuckNorrisJokesService extends AbstractVerticle {
     Configuration.ReporterConfiguration reporterConfig = new Configuration.ReporterConfiguration()
       .withLogSpans(true);
 
-    Configuration config = new Configuration("UserService")
+    Configuration config = new Configuration("JokeService")
       .withSampler(samplerConfig)
       .withReporter(reporterConfig);
 
